@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 讨论和建议
+    url: https://github.com/yourusername/awesome-sites/discussions
+    about: 项目相关的讨论和建议
+  - name: 📧 私人反馈
+    url: mailto:your-email@example.com
+    about: 私密的反馈和建议
