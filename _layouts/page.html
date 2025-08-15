@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="page-header">
+    <div class="container">
+        <div class="page-header-content">
+            <nav class="breadcrumb">
+                <a href="{{ '/' | relative_url }}">
+                    <i class="fas fa-home"></i>
+                    首页
+                </a>
+                <i class="fas fa-chevron-right"></i>
+                <span>{{ page.title }}</span>
+            </nav>
+            <h1 class="page-title">
+                {% if page.title contains '网站列表' %}
+                    <i class="fas fa-list"></i>
+                {% elsif page.title contains '贡献' %}
+                    <i class="fas fa-hands-helping"></i>
+                {% else %}
+                    <i class="fas fa-file-alt"></i>
+                {% endif %}
+                {{ page.title }}
+            </h1>
+            {% if page.description %}
+                <p class="page-description">{{ page.description }}</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="page-content">
+    <div class="container">
+        <div class="content-wrapper">
+            {% if page.title contains '网站列表' %}
+                <div class="content-sidebar">
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-info-circle"></i> 使用提示</h3>
+                        <ul>
+                            <li><kbd>Ctrl</kbd> + <kbd>F</kbd> 快速搜索</li>
+                            <li>点击标签筛选相关网站</li>
+                            <li>所有链接都会在新标签页打开</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-chart-pie"></i> 统计信息</h3>
+                        <div class="stats-mini">
+                            <div class="stat-mini">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">待探索网站</span>
+                            </div>
+                            <div class="stat-mini">
+                                <span class="stat-number">8</span>
+                                <span class="stat-label">主要分类</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+            
+            <div class="main-content-area {% if page.title contains '网站列表' %}with-sidebar{% endif %}">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

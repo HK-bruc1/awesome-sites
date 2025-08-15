@@ -7,7 +7,6 @@ author: Your Name
 email: your-email@example.com
 
 # GitHub Pages 设置
-theme: minima
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -25,13 +24,5 @@ twitter_username: yourusername
 show_downloads: true
 google_analytics: # 如果有GA跟踪代码可以填写
 
-# Minima 主题配置
-minima:
-  social_links:
-    - { platform: github, user_url: "https://github.com/yourusername/awesome-sites" }
-
-# 导航菜单
-header_pages:
-  - index.md
-  - README.md
-  - CONTRIBUTING.md
+# 自定义配置
+github_url: "https://github.com/yourusername/awesome-sites"
