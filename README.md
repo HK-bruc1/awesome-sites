@@ -259,17 +259,9 @@ permalink: /sites/
 
 本项目采用 [MIT](LICENSE) 许可证 - 详情请查看 LICENSE 文件
 
-## ⭐ Star History
+## Star History
 
-<div align="center">
-  <a href="https://star-history.com/#HK-bruc1/awesome-sites&Date" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HK-bruc1/awesome-sites&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HK-bruc1/awesome-sites&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HK-bruc1/awesome-sites&type=Date" />
-    </picture>
-  </a>
-</div>
+[![Star History Chart](https://api.star-history.com/svg?repos=HK-bruc1/awesome-sites&type=Date)](https://www.star-history.com/#HK-bruc1/awesome-sites&Date)
 
 > 如果上方图表无法显示，请访问 [Star History](https://star-history.com/#HK-bruc1/awesome-sites&Date) 查看项目星标历史。
 
