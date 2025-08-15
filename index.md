@@ -2,6 +2,7 @@
 layout: default
 title: 首页
 description: 精心收集的实用网站合集
+nav_order: 1
 ---
 
 # 欢迎来到 Awesome Sites! 🌟
@@ -91,100 +92,5 @@ description: 精心收集的实用网站合集
   <a href="/CONTRIBUTING" class="btn btn-secondary">查看贡献指南</a>
 </div>
 
-<style>
-.stats {
-  display: flex;
-  justify-content: space-around;
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.stat-item h3 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.category-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
-.category-card:hover {
-  transform: translateY(-5px);
-  color: white;
-  text-decoration: none;
-}
-
-.category-card h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
-}
-
-.category-card p {
-  margin: 0;
-  opacity: 0.9;
-  font-size: 0.9rem;
-}
-
-.cta-section {
-  text-align: center;
-  background: #f8f9fa;
-  padding: 2rem;
-  border-radius: 8px;
-  margin: 3rem 0;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  margin: 0.5rem;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-.btn-primary {
-  background: #007bff;
-  color: white;
-}
-
-.btn-primary:hover {
-  background: #0056b3;
-  color: white;
-  text-decoration: none;
-}
-
-.btn-secondary {
-  background: #6c757d;
-  color: white;
-}
-
-.btn-secondary:hover {
-  background: #545b62;
-  color: white;
-  text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .stats {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .category-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+{: .highlight }
+> 💡 **提示**: 使用顶部的搜索功能快速找到你需要的网站类型！

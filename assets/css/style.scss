@@ -3,66 +3,109 @@
 
 @import "{{ site.theme }}";
 
-// 自定义样式
-.page-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+// Just the Docs 主题自定义样式
+.highlight {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
-.main-content {
-  h1, h2, h3, h4, h5, h6 {
-    color: #333;
+// 优化表格显示
+table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  
+  th, td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #e1e4e8;
   }
   
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 1rem 0;
+  th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+    color: #24292e;
   }
   
-  table th,
-  table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
+  tr:nth-child(even) {
+    background-color: #f6f8fa;
   }
   
-  table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+  tr:hover {
+    background-color: #f1f8ff;
   }
   
-  table tr:nth-child(even) {
-    background-color: #f9f9f9;
+  // 网站名称列 - "待探索" 样式
+  td:first-child {
+    font-weight: 500;
+    color: #6f42c1;
+    font-style: italic;
   }
   
-  table tr:hover {
-    background-color: #f5f5f5;
-  }
-  
-  // 徽章样式
-  img[alt*="badge"] {
-    margin: 2px;
-  }
-  
-  // 代码块样式
+  // 标签样式优化
   code {
-    background: #f4f4f4;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-size: 0.9em;
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    padding: 0.2em 0.5em;
+    margin: 0 0.2em;
+    font-size: 0.85em;
+    color: #0366d6;
+    border: 1px solid #e1e4e8;
   }
 }
 
-// 响应式设计
-@media screen and (max-width: 768px) {
-  .main-content {
-    table {
-      font-size: 0.8rem;
+// 徽章样式优化
+img[alt="Awesome"], 
+img[alt="GitHub stars"], 
+img[alt="GitHub forks"], 
+img[alt="GitHub issues"], 
+img[alt="License: MIT"] {
+  margin: 0.2rem 0.3rem 0.2rem 0;
+  vertical-align: middle;
+}
+
+// 目录导航优化
+.table-of-contents {
+  background-color: #f8f9fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+// 分类标题样式
+h2 {
+  border-bottom: 2px solid #e1e4e8;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #586069;
+  margin-top: 1.5rem;
+}
+
+// 响应式优化
+@media (max-width: 768px) {
+  table {
+    font-size: 0.8rem;
+    
+    th, td {
+      padding: 0.5rem;
     }
     
-    table th,
-    table td {
-      padding: 8px;
+    // 在小屏幕上隐藏部分列或调整布局
+    td:last-child {
+      font-size: 0.75rem;
     }
+  }
+  
+  .highlight {
+    padding: 0.75rem;
+    margin: 0.75rem 0;
   }
 }
