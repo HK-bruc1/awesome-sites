@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: 网站列表
 description: 精心收集的实用网站合集，涵盖开发工具、学习资源、实用服务等各个领域
-nav_order: 2
+permalink: /sites/
 ---
 
 # Awesome Sites 🌟

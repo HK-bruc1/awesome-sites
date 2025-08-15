@@ -1,15 +1,21 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minima";
 
-// Just the Docs 主题自定义样式
+// 自定义样式增强
 .highlight {
   background-color: #fff3cd;
   border: 1px solid #ffeaa7;
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;
+  
+  blockquote {
+    border-left: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 // 优化表格显示
@@ -23,6 +29,7 @@ table {
     padding: 0.75rem;
     vertical-align: top;
     border: 1px solid #e1e4e8;
+    text-align: left;
   }
   
   th {
@@ -68,15 +75,6 @@ img[alt="License: MIT"] {
   vertical-align: middle;
 }
 
-// 目录导航优化
-.table-of-contents {
-  background-color: #f8f9fa;
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 1rem 0;
-}
-
 // 分类标题样式
 h2 {
   border-bottom: 2px solid #e1e4e8;
@@ -98,7 +96,6 @@ h3 {
       padding: 0.5rem;
     }
     
-    // 在小屏幕上隐藏部分列或调整布局
     td:last-child {
       font-size: 0.75rem;
     }

@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: home
 title: 首页
 description: 精心收集的实用网站合集
-nav_order: 1
 ---
 
 # 欢迎来到 Awesome Sites! 🌟

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: 贡献指南
 description: 如何为 Awesome Sites 项目贡献内容
-nav_order: 3
+permalink: /contributing/
 ---
 
 # 贡献指南 🤝
