@@ -248,6 +248,6 @@
 
 **[⬆️ 回到顶部](#awesome-sites-)**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [HK-bruc1](https://github.com/HK-bruc1)
 
 </div>
