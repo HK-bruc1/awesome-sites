@@ -12,7 +12,7 @@
 
 - 🔍 使用 `Ctrl+F` (Windows) 或 `Cmd+F` (Mac) 快速搜索你需要的网站
 - ⭐ 喜欢这个项目请给个 Star
-- 💡 想要推荐新网站？请提交 [Issue](https://github.com/yourusername/awesome-sites/issues) 或 [Pull Request](https://github.com/yourusername/awesome-sites/pulls)
+- 💡 想要推荐新网站？请提交 [Issue](https://github.com/HK-bruc1/awesome-sites/issues) 或 [Pull Request](https://github.com/HK-bruc1/awesome-sites/pulls)
 
 ---
 
