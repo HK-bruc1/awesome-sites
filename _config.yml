@@ -1,0 +1,42 @@
+# 网站基本信息
+title: Awesome Sites
+description: 精心收集的实用网站合集，涵盖开发工具、学习资源、实用服务等各个领域
+url: https://yourusername.github.io
+baseurl: /awesome-sites
+author: Your Name
+email: your-email@example.com
+
+# GitHub Pages 设置
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO 优化
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 社交媒体
+github_username: yourusername
+twitter_username: yourusername
+
+# 网站设置
+show_downloads: true
+google_analytics: # 如果有GA跟踪代码可以填写
+
+# 导航菜单
+navigation:
+  - title: 首页
+    url: /
+  - title: 贡献指南
+    url: /CONTRIBUTING
+  - title: GitHub
+    url: https://github.com/yourusername/awesome-sites
+
+# 主题定制
+cayman:
+  project_name: Awesome Sites
+  project_tagline: 精选实用网站合集
+  github:
+    repository_url: https://github.com/yourusername/awesome-sites
