@@ -22,7 +22,7 @@ permalink: /contributing/
 ### 方式一：提交 Issue
 适合快速推荐网站或报告问题
 
-1. 点击 [Issues](https://github.com/yourusername/awesome-sites/issues)
+1. 点击 [Issues](https://github.com/HK-bruc1/awesome-sites/issues)
 2. 选择合适的模板
 3. 填写必要信息
 4. 提交Issue
@@ -31,7 +31,7 @@ permalink: /contributing/
 适合直接贡献代码
 
 1. Fork 这个仓库
-2. Clone 到本地：`git clone https://github.com/yourusername/awesome-sites.git`
+2. Clone 到本地：`git clone https://github.com/HK-bruc1/awesome-sites.git`
 3. 创建分支：`git checkout -b add-new-site`
 4. 进行修改
 5. 提交修改：`git commit -m "Add: 新网站名称"`

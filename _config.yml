@@ -1,10 +1,10 @@
 # 网站基本信息
 title: Awesome Sites
 description: 精心收集的实用网站合集，涵盖开发工具、学习资源、实用服务等各个领域
-url: https://yourusername.github.io
+url: https://HK-bruc1.github.io
 baseurl: /awesome-sites
-author: Your Name
-email: your-email@example.com
+author: Felix
+email: fuxing319@gmail.com
 
 # GitHub Pages 设置
 plugins:
@@ -17,12 +17,11 @@ lang: zh-CN
 timezone: Asia/Shanghai
 
 # 社交媒体
-github_username: yourusername
-twitter_username: yourusername
+github_username: https://github.com/HK-bruc1
 
 # 网站设置
 show_downloads: true
 google_analytics: # 如果有GA跟踪代码可以填写
 
 # 自定义配置
-github_url: "https://github.com/yourusername/awesome-sites"
+github_url: "https://github.com/HK-bruc1/awesome-sites"
